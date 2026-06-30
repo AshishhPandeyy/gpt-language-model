@@ -1,0 +1,25 @@
+# Virtual environment
+cuda/
+venv/
+.venv/
+env/
+.env/
+
+# Datasets and text files (large)
+openwebtext_10gb.txt
+openwebtext_10gb.text
+
+# Model weights and checkpoints (exceeds GitHub's 100MB limit)
+*.pt
+*.pkl
+checkpoint.pt
+model-owt.pkl
+model-01.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
