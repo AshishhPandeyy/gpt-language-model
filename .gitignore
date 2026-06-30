@@ -23,3 +23,10 @@ model-01.pkl
 __pycache__/
 *.py[cod]
 *$py.class
+
+
+train.py
+specdec
+vocab.txt
+data_download.py
+data-extract.py
